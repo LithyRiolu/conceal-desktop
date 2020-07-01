@@ -4981,6 +4981,36 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         <string>25%</string>
        </property>
       </widget>
+      <widget class="QPushButton" name="m_genPayID">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>120</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#m_genPayID {
+            color: #ddd;
+            border: 1px solid orange;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Poppins';
+        }
+        QPushButton#m_genPayID:hover {
+            color:#FFD700;
+            border: 1px solid orange;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Poppins';
+            }
+        </string>
+       </property>
+       <property name="text">
+        <string>Generate Payment ID</string>
+       </property>
+      </widget>
       <zorder>textBrowser_3</zorder>
       <zorder>m_amountEdit</zorder>
       <zorder>pidLabel</zorder>
@@ -5002,6 +5032,7 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
       <zorder>m_percent100</zorder>
       <zorder>m_percent50</zorder>
       <zorder>m_percent25</zorder>
+      <zorder>m_genPayID</zorder>
      </widget>
      <widget class="QGroupBox" name="newMessageBox">
       <property name="geometry">
@@ -6919,6 +6950,22 @@ text-align: left;</string>
      <y>349</y>
     </hint>
    </hints>
+  </connection>
+  <connection>
+   <sender>m_genPayID</sender>
+   <signal>clicked()</signal>
+   <receiver>OverviewFrame</receiver>
+   <slot>genPayIdClicked()</slot>
+   <!-- <hints>                /* @NOTE-FROM: Lithy
+    <hint type="sourcelabel">   *   I dont know what this bit is so I'll
+      <x>760</x>                *   leave this to whoever knows. */
+      <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>760</x>
+     <y>120</y>
+    </hint>
+   </hints> -->
   </connection>
   <connection>
    <sender>m_addressBookButton</sender>

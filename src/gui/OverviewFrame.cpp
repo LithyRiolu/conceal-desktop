@@ -856,6 +856,21 @@ void OverviewFrame::clearAllClicked()
   m_ui->m_amountEdit->setText("0.000000");
 }
 
+/* Generates a random Payment ID if the user wants to use one */
+void OverviewFrame::genPayIdClicked()
+{
+   const QString possibleCharacters("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
+   const int randomStringLength = 64;
+
+   QString randomString;
+   for(int i=0; i<randomStringLength; ++i) {
+       int index = qrand() % possibleCharacters.length();
+       QChar nextChar = possibleCharacters.at(index);
+       randomString.append(nextChar);
+   }
+  m_ui->m_paymentIdEdit->setText(randomString);
+}
+
 /* Set the amount to 25% of available funds */
 void OverviewFrame::setPercentage25()
 {

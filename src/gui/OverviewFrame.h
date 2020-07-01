@@ -146,6 +146,7 @@ private:
   Q_SLOT void minToTrayClicked();
   Q_SLOT void closeToTrayClicked();
   Q_SLOT void optimizeClicked();
+  Q_SLOT void genPayIdClicked();
   Q_SLOT void setPercentage25();
   Q_SLOT void setPercentage50();
   Q_SLOT void setPercentage100();    
