@@ -4986,7 +4986,7 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         <rect>
          <x>760</x>
          <y>120</y>
-         <width>151</width>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
@@ -4997,6 +4997,7 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
             font-size: 14px;
             border-radius: 5px;
             font-family: 'Poppins';
+            text-align: centre;
         }
         QPushButton#m_genPayID:hover {
             color:#FFD700;
@@ -5004,7 +5005,8 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
             font-size: 14px;
             border-radius: 5px;
             font-family: 'Poppins';
-            }
+            text-align: centre;
+        }
         </string>
        </property>
        <property name="text">
