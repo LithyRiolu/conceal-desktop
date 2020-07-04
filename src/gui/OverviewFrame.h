@@ -172,6 +172,7 @@ private:
   Q_SLOT void tradeogreClicked();
   Q_SLOT void qtradeClicked();
   Q_SLOT void helpClicked();
+  Q_SLOT bool exFeaturesClicked();
 
 Q_SIGNALS:
   void sendSignal();

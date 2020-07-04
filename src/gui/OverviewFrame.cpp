@@ -164,6 +164,10 @@ OverviewFrame::OverviewFrame(QWidget *_parent) : QFrame(_parent), m_ui(new Ui::O
     m_ui->m_lockWalletButton->show();
   }
 
+  /* All experimental elements should be hidden before the switch
+   * is triggered */
+  m_ui->m_genPayID->setHidden(true);
+
   m_ui->m_transactionsView->setModel(m_transactionsModel.data());
   m_ui->m_depositView->setModel(m_depositModel.data());
   m_ui->m_messagesView->setModel(m_visibleMessagesModel.data());
@@ -1958,6 +1962,14 @@ void OverviewFrame::closeToTrayClicked()
     m_ui->m_closeToTrayButton->setText(tr("CLICK TO ENABLE"));
   }
 #endif
+}
+
+bool OverviewFrame::exFeaturesClicked() {
+  if (m_ui->m_exFeaturesSwitch->isChecked()) {
+    m_ui->m_genPayID->setHidden(false);
+  } else if (!m_ui->m_exFeaturesSwitch->isChecked()) {
+    m_ui->m_genPayID->setHidden(true);
+  }
 }
 
 } // namespace WalletGui

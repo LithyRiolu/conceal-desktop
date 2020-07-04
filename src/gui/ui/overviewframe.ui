@@ -3761,6 +3761,49 @@ QPushButton#m_closeToTrayButton:hover
          <string>ENABLE</string>
         </property>
        </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>110</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Poppins</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #fff; 
+font-size: 14px;
+font-family: 'Poppins'; border: 0px;</string>
+        </property>
+        <property name="text">
+         <string>Experimental features</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="m_exFeaturesSwitch">
+        <property name="geometry">
+         <rect>
+          <x>800</x>
+          <y>112</y>
+          <width>21</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 1px solid #aaa; color: white;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
       </widget>
       <widget class="QGroupBox" name="groupBox_13">
        <property name="geometry">
@@ -7850,6 +7893,12 @@ text-align: left;</string>
    </hints>
   </connection>
   <connection>
+   <sender>m_exFeaturesSwitch</sender>
+   <signal>clicked()</signal>
+   <receiver>OverviewFrame</receiver>
+   <slot>exFeaturesClicked()</slot>
+  </connection>
+  <connection>
    <sender>m_newOpenWalletButton</sender>
    <signal>clicked()</signal>
    <receiver>OverviewFrame</receiver>
@@ -7987,6 +8036,7 @@ text-align: left;</string>
   <slot>exportCSV()</slot>
   <slot>closeToTrayClicked()</slot>
   <slot>minToTrayClicked()</slot>
+  <slot>exFeaturesClicked()</slot>
  </slots>
  <buttongroups>
   <buttongroup name="buttonGroup"/>
