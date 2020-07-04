@@ -197,7 +197,7 @@ font-size: 15px;</string>
        <property name="styleSheet">
         <string notr="true">QPushButton#next1
 {
-    color: orange;
+    color: #fff;
     border: 1px solid orange;
     font-size: 16px;
     border-radius: 5px; font-family: 'Poppins';
@@ -205,7 +205,17 @@ font-size: 15px;</string>
 
 QPushButton#next1:hover
 {
-    color:#FFD700;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#next1:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 16px;
     border-radius: 5px;
@@ -413,9 +423,27 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#next2 {color: orange; background-color: #212529; border: 1px solid orange; font-size: 16px;}
+        <string notr="true">QPushButton#next2 {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 16px;
+}
 
-QPushButton#next2:hover {color: orange; background-color: #212529; border: 2px solid orange; font-size: 16px;}</string>
+QPushButton#next2:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 16px;
+}
+
+QPushButton#next2:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 16px;
+}</string>
        </property>
        <property name="text">
         <string>NEXT</string>
@@ -676,9 +704,27 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#next3 {color: orange; background-color: #212529; border: 1px solid orange; font-size: 16px;}
+        <string notr="true">QPushButton#next3 {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 16px;
+}
 
-QPushButton#next3:hover {color: orange; background-color: #212529; border: 2px solid orange; font-size: 16px;}</string>
+QPushButton#next3:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 16px;
+}
+
+QPushButton#next3:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 16px;
+}</string>
        </property>
        <property name="text">
         <string>NEXT</string>
@@ -794,8 +840,28 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
-       </property>
+        <string notr="true">QPushButton#pushButton {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#pushButton:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#pushButton:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+}</string>
+        </property>
        <property name="text">
         <string>CREATE NEW WALLET</string>
        </property>
@@ -816,7 +882,28 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        
+        <string notr="true">QPushButton#pushButton_2 {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#pushButton_2:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#pushButton_2:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+}</string>
        </property>
        <property name="text">
         <string>OPEN EXISTING WALLET</string>
@@ -838,7 +925,28 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        
+        <string notr="true">QPushButton#spendkeyButton {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#spendkeyButton:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#spendkeyButton:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+}</string>
        </property>
        <property name="text">
         <string>IMPORT PRIVATE KEYS</string>
@@ -860,7 +968,28 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        
+        <string notr="true">QPushButton#guikeyButton {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#guikeyButton:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#guikeyButton:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+}</string>
        </property>
        <property name="text">
         <string>IMPORT GUI KEY</string>
@@ -882,7 +1011,28 @@ font-size: 20px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #ddd; border: 1px solid orange; font-size: 12px; border-radius: 5px; font-family: 'Poppins';</string>
+        
+        <string notr="true">QPushButton#seedButton {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#seedButton:hover {
+    color: orange;
+    background-color: #212529;
+    border: 2px solid orange;
+    font-size: 12px;
+}
+
+QPushButton#seedButton:pressed {
+    color: #fff;
+    background-color: #1d2124;
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+}</string>
        </property>
        <property name="text">
         <string>IMPORT SEED</string>

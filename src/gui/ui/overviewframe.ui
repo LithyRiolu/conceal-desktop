@@ -1845,19 +1845,32 @@ border: none;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_overviewWithdrawButton
 {
-	border: none; font-size: 14px;
-	font-family: 'Poppins';
-	color: orange;
-	text-align: left;
-	text-decoration: underline;
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }
+
 QPushButton#m_overviewWithdrawButton:hover
 {
-	border: none; font-size: 14px;
-	font-family: 'Poppins';
-	color: #ddd;
-	text-align: left;
-	text-decoration: underline;
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_overviewWithdrawButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
         </property>
         <property name="text">
@@ -1890,13 +1903,35 @@ QPushButton#m_overviewWithdrawButton:hover
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: #fff;
-background: transparent;
-font-size: 20px;
-font-family: Poppins;
-border: none;
-text-align: left;
-</string>
+         <string notr="true">QPushButton#pushButton_2
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#pushButton_2:hover
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#pushButton_2:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}</string>
         </property>
         <property name="text">
          <string>RECENT ACTIVITY</string>
@@ -2558,6 +2593,16 @@ QPushButton#m_exportCSVButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_exportCSVButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -2980,6 +3025,16 @@ QPushButton#m_saveConnectionButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_exportCSVButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
         </property>
         <property name="text">
@@ -3140,7 +3195,7 @@ font-family: 'Poppins'; border: 0px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_autoOptimizeButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3148,7 +3203,17 @@ font-family: 'Poppins'; border: 0px;</string>
 
 QPushButton#m_autoOptimizeButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_autoOptimizeButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3189,15 +3254,26 @@ QPushButton#m_autoOptimizeButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_optimizeButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
-    border-radius: 5px; font-family: 'Poppins';
+    border-radius: 5px;
+    font-family: 'Poppins';
 }
 
 QPushButton#m_optimizeButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_optimizeButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3238,7 +3314,7 @@ QPushButton#m_optimizeButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_rescanButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3246,7 +3322,17 @@ QPushButton#m_optimizeButton:hover
 
 QPushButton#m_rescanButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_rescanButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3603,6 +3689,16 @@ QPushButton#m_saveLanguageButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_saveLanguageButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
         </property>
         <property name="text">
@@ -3666,7 +3762,7 @@ font-family: 'Poppins'; border: 0px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_minToTrayButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3674,7 +3770,17 @@ font-family: 'Poppins'; border: 0px;</string>
 
 QPushButton#m_minToTrayButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_minToTrayButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3742,7 +3848,7 @@ font-family: 'Poppins'; border: 0px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_closeToTrayButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3750,7 +3856,17 @@ font-family: 'Poppins'; border: 0px;</string>
 
 QPushButton#m_closeToTrayButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_closeToTrayButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3822,7 +3938,7 @@ font-family: 'Poppins'; border: 0px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_openExistingWalletButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3830,7 +3946,17 @@ font-family: 'Poppins'; border: 0px;</string>
 
 QPushButton#m_openExistingWalletButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_openExistingWalletButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3859,7 +3985,7 @@ QPushButton#m_openExistingWalletButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_createNewWalletButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3867,7 +3993,17 @@ QPushButton#m_openExistingWalletButton:hover
 
 QPushButton#m_createNewWalletButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_createNewWalletButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -3896,7 +4032,7 @@ QPushButton#m_createNewWalletButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_encryptWalletButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -3904,7 +4040,17 @@ QPushButton#m_createNewWalletButton:hover
 
 QPushButton#m_encryptWalletButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_encryptWalletButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4014,7 +4160,7 @@ font-family: 'Poppins'; border: 0px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_importTrackingWalletButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4022,7 +4168,17 @@ font-family: 'Poppins'; border: 0px;</string>
 
 QPushButton#m_importTrackingWalletButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_importTrackingWalletButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4051,7 +4207,7 @@ QPushButton#m_importTrackingWalletButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_backupKeysButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4059,7 +4215,17 @@ QPushButton#m_importTrackingWalletButton:hover
 
 QPushButton#m_backupKeysButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_backupKeysButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4088,7 +4254,7 @@ QPushButton#m_backupKeysButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_importSpendKeyButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4096,7 +4262,17 @@ QPushButton#m_backupKeysButton:hover
 
 QPushButton#m_importSpendKeyButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_importSpendKeyButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4125,7 +4301,7 @@ QPushButton#m_importSpendKeyButton:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_backupKeysButton_2
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4133,7 +4309,17 @@ QPushButton#m_importSpendKeyButton:hover
 
 QPushButton#m_backupKeysButton_2:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_backupKeysButton_2:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4162,7 +4348,7 @@ QPushButton#m_backupKeysButton_2:hover
         <property name="styleSheet">
          <string notr="true">QPushButton#m_importSeedButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4170,7 +4356,17 @@ QPushButton#m_backupKeysButton_2:hover
 
 QPushButton#m_importSeedButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_importSeedButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 11px;
     border-radius: 5px;
@@ -4280,7 +4476,7 @@ border-radius: 5px;</string>
         <property name="styleSheet">
          <string notr="true">QPushButton#m_aboutQT
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px; font-family: 'Poppins';
@@ -4288,9 +4484,19 @@ border-radius: 5px;</string>
 
 QPushButton#m_aboutQT:hover
 {
-    color:#FFD700; ;
+    color: orange;
     border: 1px solid orange;
     font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_aboutQT:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 11px;
     border-radius: 5px;
     font-family: 'Poppins';
 }</string>
@@ -4796,9 +5002,30 @@ border: none;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_sendFundsButton {color: orange; ; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_sendFundsButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';}
 
-QPushButton#m_sendFundsButton:hover {color:#FFD700; ; border: 1px solid orange; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}</string>
+QPushButton#m_sendFundsButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_sendFundsButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}</string>
        </property>
        <property name="text">
         <string>SEND</string>
@@ -4832,10 +5059,31 @@ QPushButton#m_sendFundsButton:hover {color:#FFD700; ; border: 1px solid orange; 
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_cancelButton {color: #ccc; border: 1px solid #444; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_cancelButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';}
 
-QPushButton#m_cancelButton:hover {color: #fff; border: 1px solid #444; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
-       </property>
+QPushButton#m_cancelButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_cancelButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}</string>
+        </property>
        <property name="text">
         <string>CANCEL</string>
        </property>
@@ -4925,10 +5173,32 @@ border: none;</string>
         <cursorShape>ArrowCursor</cursorShape>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_clearAllButton {color: #ccc; border: 1px solid #444; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_clearAllButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
-       </property>
+QPushButton#m_clearAllButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_clearAllButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}</string>
+        </property>
        <property name="text">
         <string>CLEAR</string>
        </property>
@@ -4943,7 +5213,35 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">padding: 3px; border: 1px solid #444; border-radius: 5px; font-family: 'Poppins'; font-size: 14px; color: #aaa;</string>
+        <string notr="true">QPushButton#m_percent100 {
+        padding: 3px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #fff;
+}
+
+QPushButton#m_percent100:hover {
+        padding: 3px;
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_percent100:pressed
+{
+    padding: 3px;
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+        </string>
        </property>
        <property name="text">
         <string>100%</string>
@@ -4959,7 +5257,35 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">padding: 3px; border: 1px solid #444; border-radius: 5px; font-family: 'Poppins'; font-size: 14px; color: #aaa;</string>
+        <string notr="true">QPushButton#m_percent50 {
+        padding: 3px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #fff;
+}
+
+QPushButton#m_percent50:hover {
+        padding: 3px;
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_percent50:pressed
+{
+    padding: 3px;
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+        </string>
        </property>
        <property name="text">
         <string>50%</string>
@@ -4975,10 +5301,81 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">padding: 3px; border: 1px solid #444; border-radius: 5px; font-family: 'Poppins'; font-size: 14px; color: #aaa;</string>
+        <string notr="true">QPushButton#m_percent25 {
+        padding: 3px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #fff;
+}
+
+QPushButton#m_percent25:hover {
+        padding: 3px;
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_percent25:pressed
+{
+    padding: 3px;
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+        </string>
        </property>
        <property name="text">
         <string>25%</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="m_genPayID">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>120</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#m_genPayID {
+            color: #fff;
+            border: 1px solid orange;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Poppins';
+            text-align: centre;
+        }
+        QPushButton#m_genPayID:hover {
+            color: orange;
+            border: 1px solid orange;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Poppins';
+            text-align: centre;
+        }
+
+        QPushButton#m_genPayID:pressed {
+            color: #fff;
+            background-color: #1d2124;
+            border: 1px solid orange;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Poppins';
+            text-align: centre;
+        }
+
+        </string>
+       </property>
+       <property name="text">
+        <string>Generate Payment ID</string>
        </property>
       </widget>
       <zorder>textBrowser_3</zorder>
@@ -5002,6 +5399,7 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
       <zorder>m_percent100</zorder>
       <zorder>m_percent50</zorder>
       <zorder>m_percent25</zorder>
+      <zorder>m_genPayID</zorder>
      </widget>
      <widget class="QGroupBox" name="newMessageBox">
       <property name="geometry">
@@ -5046,9 +5444,30 @@ QPushButton#m_clearAllButton:hover {color: #fff; border: 1px solid #444; font-si
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_sendMessageButton {color: orange; ; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_sendMessageButton {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_sendMessageButton:hover {color:#FFD700; ; border: 1px solid orange; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}</string>
+QPushButton#m_sendMessageButton:hover {
+        color:#FFD700;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_sendMessageButton:pressed {
+        color:#FFD700;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}</string>
        </property>
        <property name="text">
         <string>SEND</string>
@@ -5120,9 +5539,30 @@ border: none;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_cancelMessageButton {color: #ccc; border: 1px solid #444; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_cancelMessageButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_cancelMessageButton:hover {color: #fff; border: 1px solid #444; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
+QPushButton#m_cancelMessageButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_cancelMessageButton:pressed {
+        color: #fff;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}</string>
        </property>
        <property name="text">
         <string>CANCEL</string>
@@ -5159,9 +5599,30 @@ QPushButton#m_cancelMessageButton:hover {color: #fff; border: 1px solid #444; fo
         <cursorShape>ArrowCursor</cursorShape>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_clearMessageButton {color: #ccc; border: 1px solid #444; font-size: 14px; border-radius: 5px;font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_clearMessageButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_clearMessageButton:hover {color: #fff; border: 1px solid #444; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
+QPushButton#m_clearMessageButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_clearMessageButton:pressed {
+        color: #fff;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}</string>
        </property>
        <property name="text">
         <string>CLEAR</string>
@@ -5868,11 +6329,32 @@ font-weight: bold;</string>
           <pointsize>-1</pointsize>
          </font>
         </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton#m_depositButton_2 {color: #fff; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}
+       <property name="styleSheet">
+        <string notr="true">QPushButton#m_depositButton_2 {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_depositButton_2:hover {color: orange; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
-        </property>
+QPushButton#m_depositButton_2:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_depositButton_2:pressed {
+        color: #fff;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}</string>
+       </property>
         <property name="text">
          <string>MAKE DEPOSIT</string>
         </property>
@@ -6018,10 +6500,32 @@ text-align: left;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton#m_withdrawButton {color: #fff; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}
+       <property name="styleSheet">
+        <string notr="true">QPushButton#m_withdrawButton {
+        color: #fff;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
 
-QPushButton#m_withdrawButton:hover {color: orange; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
-        </property>
+QPushButton#m_withdrawButton:hover {
+        color: orange;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}
+
+QPushButton#m_withdrawButton:pressed {
+        color: #fff;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+}</string>
+       </property>
         <property name="text">
          <string>WITHDRAW</string>
         </property>
@@ -6284,6 +6788,16 @@ QPushButton#m_copyAddressButton_2:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_copyAddressButton_2:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -6318,6 +6832,16 @@ QPushButton#m_copyAddressButton_2:hover
 QPushButton#m_copyPaymentIdButton:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_copyPaymentIdButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -6360,6 +6884,16 @@ QPushButton#m_payToButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_payToButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -6398,6 +6932,16 @@ QPushButton#m_editAddressButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_editAddressButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -6432,6 +6976,16 @@ QPushButton#m_editAddressButton:hover
 QPushButton#m_deleteAddressButton:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_deleteAddressButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -6579,9 +7133,33 @@ font-size: 16px;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#m_unlockWalletButton {color: #fff; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}
+        <string notr="true">QPushButton#m_unlockWalletButton
+{
+    color: #fff;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
 
-QPushButton#m_unlockWalletButton:hover {color: orange; border: 1px solid orange; font-size: 14px; border-radius: 5px; font-family: 'Poppins';}</string>
+QPushButton#m_unlockWalletButton:hover
+{
+    color: orange;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_unlockWalletButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}</string>
        </property>
        <property name="text">
         <string>UNLOCK WALLET</string>
@@ -6919,6 +7497,22 @@ text-align: left;</string>
      <y>349</y>
     </hint>
    </hints>
+  </connection>
+  <connection>
+   <sender>m_genPayID</sender>
+   <signal>clicked()</signal>
+   <receiver>OverviewFrame</receiver>
+   <slot>genPayIdClicked()</slot>
+   <!-- <hints>                /* @NOTE-FROM: Lithy
+    <hint type="sourcelabel">   *   I dont know what this bit is so I'll
+      <x>760</x>                *   leave this to whoever knows. */
+      <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>760</x>
+     <y>120</y>
+    </hint>
+   </hints> -->
   </connection>
   <connection>
    <sender>m_addressBookButton</sender>

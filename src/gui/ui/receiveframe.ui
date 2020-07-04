@@ -182,6 +182,16 @@ QPushButton#m_copySeedButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_copySeedButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -236,6 +246,16 @@ QPushButton#m_backButton_2:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_backButton_2:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -286,6 +306,16 @@ QPushButton#m_backButton_2:hover
 QPushButton#m_copySpendKeyButton:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_copySpendKeyButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -438,6 +468,16 @@ QPushButton#m_copyViewKeyButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_copyViewKeyButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -472,6 +512,16 @@ QPushButton#m_copyViewKeyButton:hover
 QPushButton#m_backButton_4:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_backButton_4:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -652,6 +702,16 @@ QPushButton#m_showSeed:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_showSeed:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -690,6 +750,16 @@ QPushButton#m_backButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_backButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -724,6 +794,16 @@ QPushButton#m_backButton:hover
 QPushButton#m_showPrivate:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_showPrivate:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -778,6 +858,16 @@ QPushButton#m_showPrivate:hover
 QPushButton#m_showGUI:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_showGUI:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;
@@ -872,6 +962,16 @@ QPushButton#m_copyGUIKeyButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_copyGUIKeyButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -957,6 +1057,16 @@ p, li { white-space: pre-wrap; }
 QPushButton#m_backButton_3:hover
 {
     color: orange;
+    border: 1px solid orange;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_backButton_3:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 12px;
     border-radius: 5px;

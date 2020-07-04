@@ -115,7 +115,7 @@ p, li { white-space: pre-wrap; }
        <property name="styleSheet">
         <string notr="true">QPushButton#m_okButton
 {
-    color: orange;
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px; font-family: 'Poppins';
@@ -123,7 +123,17 @@ p, li { white-space: pre-wrap; }
 
 QPushButton#m_okButton:hover
 {
-    color:#FFD700;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_okButton:pressed
+{
+    color: #fff;
+    background-color: #1d2124;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px;
