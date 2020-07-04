@@ -3791,7 +3791,7 @@ font-family: 'Poppins'; border: 0px;</string>
        <widget class="QCheckBox" name="m_exFeaturesSwitch">
         <property name="geometry">
          <rect>
-          <x>800</x>
+          <x>810</x>
           <y>112</y>
           <width>21</width>
           <height>17</height>
