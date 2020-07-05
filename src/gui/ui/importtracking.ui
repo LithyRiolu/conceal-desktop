@@ -201,7 +201,7 @@ font-size: 20px;</string>
     <property name="styleSheet">
      <string notr="true">QPushButton#m_okButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px; font-family: 'Poppins';
@@ -209,7 +209,16 @@ font-size: 20px;</string>
 
 QPushButton#m_okButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_okButton:pressed
+{
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px;
@@ -244,7 +253,7 @@ QPushButton#m_okButton:hover
     <property name="styleSheet">
      <string notr="true">QPushButton#m_cancelButton
 {
-    color: orange; ;
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px; font-family: 'Poppins';
@@ -252,7 +261,16 @@ QPushButton#m_okButton:hover
 
 QPushButton#m_cancelButton:hover
 {
-    color:#FFD700; ;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+QPushButton#m_om_cancelButtonkButton:pressed
+{
+    color: #fff;
     border: 1px solid orange;
     font-size: 14px;
     border-radius: 5px;

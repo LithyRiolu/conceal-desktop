@@ -103,6 +103,15 @@ QPushButton#m_cancelButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_cancelButton:pressed {
+    color: #FFF;
+    background-color: #1d2124;
+    border: 1px solid orange;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins';
 }</string>
      </property>
      <property name="text">
@@ -138,6 +147,15 @@ QPushButton#m_okButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_okButton:pressed {
+        color: #FFF;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: 'Poppins';
 }</string>
      </property>
      <property name="text">

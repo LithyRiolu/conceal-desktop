@@ -181,6 +181,15 @@ QPushButton#m_saveButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_saveButton:pressed {
+        color: #FFF;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -232,6 +241,15 @@ QPushButton#m_prevButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_prevButton:pressed {
+        color: #FFF;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -270,6 +288,15 @@ QPushButton#m_nextButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_nextButton:pressed {
+        color: #FFF;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
@@ -308,6 +335,15 @@ QPushButton#m_okButton:hover
     font-size: 12px;
     border-radius: 5px;
     font-family: 'Poppins';
+}
+
+QPushButton#m_okButton:pressed {
+        color: #FFF;
+        background-color: #1d2124;
+        border: 1px solid orange;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: 'Poppins';
 }</string>
        </property>
        <property name="text">
