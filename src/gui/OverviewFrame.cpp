@@ -1946,7 +1946,7 @@ void OverviewFrame::closeToTrayClicked()
 }
 
 void OverviewFrame::logoutClicked() {
-  WalletAdapter::instance().closeWallet();
+  closeWalletClicked();
 }
 
 } // namespace WalletGui
