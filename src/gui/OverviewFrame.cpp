@@ -1945,6 +1945,10 @@ void OverviewFrame::closeToTrayClicked()
 #endif
 }
 
+void OverviewFrame::logoutClicked() {
+  WalletAdapter::instance().closeWallet();
+}
+
 } // namespace WalletGui
 
 #include "OverviewFrame.moc"
