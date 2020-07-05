@@ -1903,35 +1903,13 @@ QPushButton#m_overviewWithdrawButton:pressed
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton#pushButton_2
-{
-    color: #fff;
-    background-color: #1d2124;
-    border: 1px solid orange;
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: 'Poppins';
-}
-
-QPushButton#pushButton_2:hover
-{
-    color: #fff;
-    background-color: #1d2124;
-    border: 1px solid orange;
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: 'Poppins';
-}
-
-QPushButton#pushButton_2:pressed
-{
-    color: #fff;
-    background-color: #1d2124;
-    border: 1px solid orange;
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: 'Poppins';
-}</string>
+         <string notr="true">color: #fff;
+background: transparent;
+font-size: 20px;
+font-family: Poppins;
+border: none;
+text-align: left;
+</string>
         </property>
         <property name="text">
          <string>RECENT ACTIVITY</string>
@@ -6500,7 +6478,6 @@ text-align: left;
          </font>
         </property>
         <property name="styleSheet">
-       <property name="styleSheet">
         <string notr="true">QPushButton#m_withdrawButton {
         color: #fff;
         border: 1px solid orange;
