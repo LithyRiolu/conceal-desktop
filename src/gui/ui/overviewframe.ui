@@ -5423,7 +5423,7 @@ QPushButton#m_percent25:pressed
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton#m_sendMessageButton {
-        color: orange;
+        color: #fff;
         border: 1px solid orange;
         font-size: 14px;
         border-radius: 5px;
@@ -5431,7 +5431,7 @@ QPushButton#m_percent25:pressed
 }
 
 QPushButton#m_sendMessageButton:hover {
-        color:#FFD700;
+        color: orange;
         border: 1px solid orange;
         font-size: 14px;
         border-radius: 5px;
@@ -5439,7 +5439,7 @@ QPushButton#m_sendMessageButton:hover {
 }
 
 QPushButton#m_sendMessageButton:pressed {
-        color:#FFD700;
+        color: #fff;
         background-color: #1d2124;
         border: 1px solid orange;
         font-size: 14px;
