@@ -31,6 +31,10 @@
 #include "TranslatorManager.h"
 #include "gui/MainWindow.h"
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 #define DEBUG 1
 
 using namespace WalletGui;
@@ -101,7 +105,13 @@ int main(int argc, char* argv[]) {
   }
 
   new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_M), splash, SLOT(showMinimized()));
-  
+
+#ifdef _WIN32
+  // https://stackoverflow.com/a/62571876
+  int exstyle = GetWindowLong(reinterpret_cast<HWND>(splash.winId()), GWL_EXSTYLE);
+  SetWindowLong(reinterpret_cast<HWND>(splash.winId()), GWL_EXSTYLE, exstyle & ~WS_EX_TOOLWINDOW);
+#endif
+
   QFont splashFont;
   splashFont.setFamily("Arial");
   splashFont.setBold(true);
