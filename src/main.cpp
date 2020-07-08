@@ -8,6 +8,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <QApplication>
+#include <QAction>
+#include <QShortcut>
 #include <QCommandLineParser>
 #include <QLocale>
 #include <QTranslator>
@@ -98,6 +100,8 @@ int main(int argc, char* argv[]) {
     splash = new QSplashScreen(QPixmap(":images/splash"));
   }
 
+  new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_M), splash, SLOT(showMinimized()));
+  
   QFont splashFont;
   splashFont.setFamily("Arial");
   splashFont.setBold(true);
