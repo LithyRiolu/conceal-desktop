@@ -31,7 +31,7 @@
 #include "TranslatorManager.h"
 #include "gui/MainWindow.h"
 
-#ifdef _WIN32
+#ifdef Q_OS_WIN
 #include <windows.h>
 #endif
 
@@ -106,8 +106,9 @@ int main(int argc, char* argv[]) {
 
   new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_M), splash, SLOT(showMinimized()));
 
-#ifdef _WIN32
+#ifdef Q_OS_WIN
   // https://stackoverflow.com/a/62571876
+  HWND hWnd = splash.winId();
   int exstyle = GetWindowLong(reinterpret_cast<HWND>(splash.winId()), GWL_EXSTYLE);
   SetWindowLong(reinterpret_cast<HWND>(splash.winId()), GWL_EXSTYLE, exstyle & ~WS_EX_TOOLWINDOW);
 #endif
