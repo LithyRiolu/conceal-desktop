@@ -18,6 +18,7 @@
 #include <QSplashScreen>
 #include <QStyleFactory>
 #include <QRegularExpression>
+#include <QWindow>
 #include "LogFileWatcher.h"
 
 #include "CommandLineParser.h"
