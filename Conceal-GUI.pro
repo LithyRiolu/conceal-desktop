@@ -5,6 +5,7 @@
 TEMPLATE = app
 QT += webkit webkitwidgets
 QT += charts
+QT += gui
 TARGET = 
 DEPENDPATH += . \
               libqrencode \
